@@ -15,6 +15,10 @@ def aaa():
     f.close()
     return "1"
 print aaa()
+
+
+
+
 拿到链接，用的urllib2打开后获取到整个页面，用lmxl解析获取到的整个页面。
 遍历在这个页面想要拿到的数据的标签
 urllib2.urlopen（urllib2.Request（链接））
